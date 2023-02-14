@@ -1,0 +1,44 @@
+#output {
+    display: none;
+    border: 3px solid black;
+    margin-top: 15px;
+    padding: 30px;
+    white-space: nowrap;
+}
+
+
+.user-auth {
+    border: 5px dashed black;
+    padding: 1em;
+    background-color: #c1c1c1;
+    padding-right: 30em;
+}
+
+.user-auth__button {
+    margin: 10px;
+}
+
+.user-auth__item_modified-red {
+    background-color: red;
+}
+
+.user-auth__item_modified-white {
+    background-color: #f0f0e1;
+}
+
+
+#output__lable {
+    display: inline;
+    margin-left: 20px;
+
+}
+
+#output__username {
+    display: inline;
+    font-weight: bold;
+}
+
+#output__password {
+    display: inline;
+    font-weight: bold;
+}

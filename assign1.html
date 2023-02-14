@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Encryption</title>
+    
+    <!-- jasmine md5 file  -->
+    <script src="jasmine/lib/md5.js"></script>
+    <link rel="shortcut icon" type="image/png" href="jasmine/lib/jasmine-4.5.0/jasmine_favicon.png">
+    <!-- <script src="jasmine/spec/login_spec.js"></script>  -->
+    
+    <!-- src files -->
+
+    <script src="jasmine/src/md5.js"></script> 
+    <script src="jasmine/src/md5Encrypt.js"></script>
+    <script src="jasmine/src/checkLogin.js"></script>
+    
+
+    <!-- basic assign1 files -->
+    <script src="./assign1.js"></script>
+    <link rel="stylesheet" href="./assign1.css">
+</head>
+
+
+<body>
+  <H1>Login Page</H1>
+  <div class="user-auth">
+      <form name="userAuth__form">
+          <fieldset>
+              <legend>User Authentication</legend>
+              <label class="userAuth__usernamelabel">
+                  Username:
+              </label>
+              <input type="text" name="userAuth__username" id="user__username_input">
+              <br>
+              <label class="userAuth__passwordlabel">
+                  Password:
+              </label>
+              <input type="password" name="userAuth__password" id="user__password_input">
+              <br>
+              <input type="submit" id="user-auth__button"></input>
+          </fieldset>
+      </form>
+  </div>
+
+    <div id="output">
+        <p id="username__text">Username:  <span id="output__username"> </span> </p> 
+        <p id="password__text">Password: <span id="output__password"> </span></p> 
+    </div>
+    
+</body>
+</html>
